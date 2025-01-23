@@ -19,6 +19,7 @@ fixed_array = FixedSizedArray(5)
 print(fixed_array)
 fixed_array[2] = 10
 print(fixed_array)
+
 try:
     fixed_array[5] = 20
 except Exception as e:

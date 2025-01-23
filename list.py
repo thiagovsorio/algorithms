@@ -10,16 +10,6 @@ class LinkedList:
         self.head = None
         self.tail = None
 
-    # def insert(self, data):
-    #     if not self.head:
-    #         self.head = Node(data)
-    #     else:
-    #         current_node = self.head
-    #         while current_node.next:
-    #             current_node = current_node.next
-    #         current_node.next = Node(data)
-
-
     def insert(self, value):
         if not value:
             return
@@ -40,7 +30,6 @@ class LinkedList:
             current_node = current_node.next
         print()
 
-# Example usage:
 linked_list = LinkedList()
 linked_list.insert("A")
 linked_list.insert("B")
